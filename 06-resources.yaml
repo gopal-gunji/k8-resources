@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: resources-demo
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    resources:
+      requests:
+        memory: "63Mi" # RAM
+        cpu: "100m" # CPU
+
+      limits:
+        memory: "128Mi" # max RAM limit
+        cpu: "159m" # max CPU limit
