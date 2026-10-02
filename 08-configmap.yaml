@@ -5,5 +5,5 @@ metadata:
 data:
   course: "kubernetes"
   duration: "15hr"
-  trainer: "sivakumar kumar"
-  
+  trainer: "sivakumar reddy"
+  version: "v1.0"
