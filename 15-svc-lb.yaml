@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: nginx-np
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
   # labels are used as selectors 
     project: roboshop
