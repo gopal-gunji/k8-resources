@@ -6,11 +6,11 @@ spec:
   accessModes:
   - ReadWriteOnce
   capacity:
-    storage: 5Gi # should be less than or equal to your disk size
+    storage: 2Gi # should be less than or equal to your disk size
   csi:
     driver: ebs.csi.aws.com
     fsType: ext4
-    volumeHandle: vol-0d03f57660cbafe8b
+    volumeHandle: vol-087dd2e842f3a3d60
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
